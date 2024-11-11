@@ -28,10 +28,10 @@ const About = () => {
 
                     <div>
                         <p className="grid-headtext">
-                            Hi I am Tshex.
+                            Hi, I am Lasha.
                         </p>
                         <p className="grid-subtext">
-                            I am a full-stack developer. I have 3 years of experience.
+                            I am a Front-End Developer.
                         </p>
                     </div>
 
@@ -50,7 +50,7 @@ const About = () => {
                             Tech Stack
                         </p>
                         <p className="grid-subtext">
-                            i specialize JavaScript/TypeScript with a strong focus on React.
+                            i specialize JavaScript/TypeScript with a strong focus on Next.
                         </p>
                     </div>
                 </div>
@@ -75,10 +75,10 @@ const About = () => {
                     </div>
                     <div>
                         <p className="grid-headtext">
-                          i work remotely across most   timezones.
+                          I work remotely across most timezones.
                         </p>
                         <p className="grid-subtext">
-                            I'm based in Georgia, wth remote work avaliable.
+                            I'm based in Georgia, with remote work avaliable.
                         </p>
                         <Button name="Contact me" isBeam containerClass="w-full mt-10" />
                     </div>
@@ -97,7 +97,8 @@ const About = () => {
                             My Passion for Coding
                         </p>
                         <p className="grid-subtext">
-                            I am a full-stack developer. I have 3 years of experience.
+                            Highly motivated front-end developer with a focus on expanding into full-
+                            stack development.
                         </p>
                      </div>
                 </div>

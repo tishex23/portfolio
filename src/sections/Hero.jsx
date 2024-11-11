@@ -16,16 +16,16 @@ const Hero = () => {
 
     const isSmall = useMediaQuery({ query: '(max-width: 440px)' })
     const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
-    const isTablet = useMediaQuery({ query: '(minWidth: 768px) and max-width: 1024px)' })
+    const isTablet = useMediaQuery({ query: '(min-width: 768px) and max-width: 1024px)' })
     const sizes = calculateSizes(isSmall, isMobile, isTablet);
 
   return (
 
-    <section className="min-h-screen flex flex-col w-full relative">
+    <section className="min-h-screen flex flex-col w-full relative" id="">
 
         <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
             <p className="text-white sm:text-3xl text-2xl font-medium text-center font-generalsans">
-                Hi, I am Tshex <span className="waving-hand">👋</span>
+                Hi, I am Lasha <span className="waving-hand">👋</span>
             </p>
             <p className="hero_tag text-gray_gradient">
                 Building Products & Brands
